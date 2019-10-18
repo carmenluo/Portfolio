@@ -5,3 +5,12 @@ body {
 body h1 {
   color: #244751;
 }
+
+body .bgimg-1 {
+  background-image: url("https://www.killingthyme.net/wp-content/uploads/2015/10/Easy-Homemade-Ramen.jpg");
+  height: 500px;
+}
+
+body #header {
+  color: red;
+}
