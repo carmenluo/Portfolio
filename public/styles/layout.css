@@ -7,8 +7,33 @@ body h1 {
 }
 
 body .bgimg-1 {
-  background-image: url("https://www.killingthyme.net/wp-content/uploads/2015/10/Easy-Homemade-Ramen.jpg");
-  height: 500px;
+  background-image: url("/images/developer1.png");
+  min-height: 670px;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10%;
+}
+
+body .bgimg-2 {
+  background-image: url("/images/writing.png");
+  min-height: 670px;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10%;
+}
+
+body .bgimg-3 {
+  background-image: url("/images/contact.png");
+  min-height: 670px;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10%;
 }
 
 body #header {
