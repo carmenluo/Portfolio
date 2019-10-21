@@ -46,7 +46,7 @@ body .sliding {
   transition-duration: 1s;
 }
 
-body #history-container {
+body #developer-container {
   color: #ddd;
   background-color: #282e34;
   text-align: center;
@@ -54,7 +54,7 @@ body #history-container {
   text-align: center;
 }
 
-body #history-content {
+body #developer-content {
   font-size: 16px;
   text-align: left;
 }
@@ -70,7 +70,7 @@ body .showing {
   transform: translateX(0%);
 }
 
-body #history {
+body #developer {
   width: 80%;
   margin: 0 auto;
 }

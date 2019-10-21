@@ -42,7 +42,7 @@ body {
     transform: translateX(-50%);
     transition-duration: 1s;
   }
-  #history-container {
+  #developer-container {
     color: #ddd;
     background-color: #282e34;
     text-align: center;
@@ -52,7 +52,7 @@ body {
   
   
   
-  #history-content {
+  #developer-content {
     font-size: 16px;
     text-align: left;
   }
@@ -68,7 +68,7 @@ body {
     transform: translateX(0%);
   }
   
-  #history {
+  #developer {
     width: 80%; 
     margin:0 auto;
   }
