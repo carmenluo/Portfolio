@@ -39,3 +39,46 @@ body .bgimg-3 {
 body #header {
   color: red;
 }
+
+body .sliding {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition-duration: 1s;
+}
+
+body #history-container {
+  color: #ddd;
+  background-color: #282e34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: center;
+}
+
+body #history-content {
+  font-size: 16px;
+  text-align: left;
+}
+
+body .sliding {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition-duration: 1s;
+}
+
+body .showing {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+body #history {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body #section2 {
+  padding: 20px 80px;
+  color: #ddd;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
