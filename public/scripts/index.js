@@ -3,13 +3,13 @@ $(document).ready(function() {
 
     const slideInAt = window.scrollY + window.innerHeight;
     console.log(slideInAt);
-    // const section2 = document.querySelector("#section2");
-    // const section1DistanceToTop = window.pageYOffset + section2.getBoundingClientRect().top;
-    // if (slideInAt > section1DistanceToTop + 60) {
-    //   section2.classList.add("showing");
-    // } else {
-    //   section2.classList.remove("showing");
-    // }
+    const writer = document.querySelector("#writer");
+    const writerDistanceToTop = window.pageYOffset + writer.getBoundingClientRect().top;
+    if (slideInAt > writerDistanceToTop + 60) {
+      writer.classList.add("showing");
+    } else {
+      writer.classList.remove("showing");
+    }
 
     const developerSection = document.querySelector("#developer");
     const developerDistanceToTop = window.pageYOffset + developerSection.getBoundingClientRect().top;
@@ -20,5 +20,10 @@ $(document).ready(function() {
     }
 
   });
+  $('#contact').click((event)=>{
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $('#contactContainer').offset().top},'slow')
+  })
 })
 
