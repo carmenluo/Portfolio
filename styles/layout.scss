@@ -8,7 +8,7 @@ body {
   }
    .bgimg-1 {
     background-image: url("/images/developer1.png");
-    min-height: 670px;
+    min-height: 800px;
     margin: auto 0;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body {
   }
    .bgimg-2 {
     background-image: url("/images/writing.png");
-    min-height: 670px;
+    min-height: 800px;
     margin: auto 0;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
   }
    .bgimg-3 {
     background-image: url("/images/contact.png");
-    min-height: 670px;
+    min-height: 800px;
     margin: auto 0;
     display: flex;
     justify-content: center;
@@ -82,14 +82,5 @@ body {
     opacity: 1;
     transform: translateX(0%);
   }
-  
-  
-  
-  #section2 {
-    padding: 20px 80px;
-    color:#ddd;
-    text-align:center;
-    padding:50px 80px;
-    text-align: justify;
-  }
+ 
 }
