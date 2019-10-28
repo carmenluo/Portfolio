@@ -23,7 +23,7 @@ body .project1:after {
   border-bottom: 2px solid #ffffff;
   border-left: 0px solid #ffffff;
   top: 100%;
-  left: 50%;
+  left: 45%;
   margin-left: 25px;
   content: '';
   transform: rotate(45deg);
@@ -35,7 +35,6 @@ body .strips {
   text-align: center;
   overflow: hidden;
   color: white;
-  opacity: 0.7;
 }
 
 body .strips__strip {
@@ -92,7 +91,7 @@ body .strips__strip:nth-child(3) .strip__content {
 }
 
 body .strips__strip:nth-child(4) .strip__content {
-  background: #F8BB44;
+  background: #FFA69E;
   transform: translate3d(0, 100%, 0);
   animation-name: strip4;
   animation-delay: 0.4s;
@@ -317,9 +316,24 @@ body .fa {
 body h2 {
   font-size: 36px;
   margin: 0 0 16px;
+  font-weight: 600;
 }
 
 body p {
   margin: 0 0 16px;
-  font-size: 24px;
+  font-size: 28px;
+}
+
+body .link {
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+body .link a {
+  color: white;
+}
+
+body .def {
+  margin: 1em;
+  padding-top: 1em;
 }
