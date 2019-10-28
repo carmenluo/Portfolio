@@ -6,13 +6,14 @@ body{
       max-width: 900px;
       height: auto;
       border: 2px solid #ffffff;
-      margin: 20px auto;
-      padding: 20px;
+      margin: 10px auto;
+      padding-top:10px;
+      margin-top:5em;
       box-sizing: border-box;
       &:after{
         position: absolute;
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: 30px;
         border-top: 0px solid #ffffff;
         border-right: 2px solid #ffffff;
         border-bottom: 2px solid #ffffff;
@@ -22,7 +23,7 @@ body{
         margin-left: 25px;
         content:'';
         transform: rotate(45deg);
-        margin-top:-25px;
+        margin-top:-15px;
 
       }
     }
@@ -219,7 +220,6 @@ body{
         left: 0 !important;
         z-index: 3;
         cursor: default;
-        
         @include break {
           min-height: 100vh;
         }
@@ -351,20 +351,20 @@ body{
     }
     
     h2 {
-      font-size: 36px;
+      font-size: 1.5em;
       margin: 0 0 16px;
       font-weight: 600;
     }
     
     p {
-      margin: 0 0 16px;
-      font-size: 28px;
+      margin: 0 0 5px;
+      font-size: 1.1em;
     }
     .link{
       a{
         color: white;
       }
-      font-size: 36px;
+      font-size: 1.5em;
       text-decoration: underline;
     }
     .def {
