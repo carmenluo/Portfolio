@@ -77,6 +77,11 @@ body .bgimg {
   width: 100%;
 }
 
+body .bgimg a {
+  border: white solid 0px;
+  width: 30%;
+}
+
 body #header {
   color: red;
 }
