@@ -1,4 +1,6 @@
 body{
+    display: flex;
+    flex-direction: column;
     .project1{
       position: relative;
       max-width: 900px;
@@ -39,12 +41,11 @@ body{
       }
     }
     
-    * {
-      box-sizing: border-box;
-    }
+    // * {
+    //   box-sizing: border-box;
+    // }
     
     .strips {
-      padding-top: 81px;
       min-height: 100vh;
       text-align: center;
       overflow: hidden;
@@ -55,7 +56,8 @@ body{
         will-change: width, left, z-index, height;
         position: absolute;
         width: 20%;
-        min-height: 90vh;
+        padding-top: 81px;
+        min-height: 100vh;
         overflow: hidden;
         cursor: pointer;
         @include easeOut;

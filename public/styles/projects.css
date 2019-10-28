@@ -1,4 +1,6 @@
 body {
+  display: flex;
+  flex-direction: column;
   /* Demo purposes */
 }
 
@@ -28,12 +30,7 @@ body .project1:after {
   margin-top: -25px;
 }
 
-body * {
-  box-sizing: border-box;
-}
-
 body .strips {
-  padding-top: 81px;
   min-height: 100vh;
   text-align: center;
   overflow: hidden;
@@ -45,7 +42,8 @@ body .strips__strip {
   will-change: width, left, z-index, height;
   position: absolute;
   width: 20%;
-  min-height: 90vh;
+  padding-top: 81px;
+  min-height: 100vh;
   overflow: hidden;
   cursor: pointer;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
